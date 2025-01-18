@@ -1,0 +1,24 @@
+import './Service.css'
+import ImageCard from './ImageCard'
+import BottomSection from './BottomSection'
+
+export default function Service() {
+  return (
+    <div className='service-container'>
+        <div className='head-container'>
+            <div className='head1 head'>
+                <h1 className='head1-text'>
+                Explore Our Comprehensive Publishing Services
+                </h1>
+            </div>
+            <div className='head2 head'>
+                <p className='head2-text'>
+                At Afia Publications, we offer a wide range of services tailored to meet the needs of authors and publishers. From meticulous manuscript editing to creative book design and layout, our team ensures that every project is handled with precision and care. Discover how we can bring your literary vision to life with our expert publishing solutions.
+                </p>
+            </div>
+        </div>
+        <ImageCard />
+        <BottomSection />
+    </div>
+  )
+}
