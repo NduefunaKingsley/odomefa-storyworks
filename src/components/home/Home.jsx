@@ -1,8 +1,12 @@
 import './Home.css'
+import Section2 from './Section2'
+import Section3 from './Section3'
+import Section4 from './Section4'
 
 export default function Home() {
   return (
-    <div className='home-container'>
+    <div>
+         <div className='home-container'>
       <div className='home'>
       <div className='home-header'>
         <h1 className='home-head'>
@@ -25,6 +29,10 @@ export default function Home() {
         By signing up, you agree to our Terms and Conditions and Privacy Policy.
         </span>
       </div>
+    </div>
+    <Section2 />
+    <Section3 />
+    <Section4 />
     </div>
   )
 }
