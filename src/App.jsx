@@ -25,7 +25,7 @@ export default function App() {
         </div>
         <div className='nav-btn'>
           <Link to='/service' className='btn-link'><button className='btn1 btn'>Contact Us </button></Link>
-          <Link to='#' className='btn-link'><button className='btn2 btn'>Get Started</button></Link>
+          <Link to='/' className='btn-link'><button className='btn2 btn'>Get Started</button></Link>
         </div>
       </nav>
 

@@ -44,6 +44,7 @@
 }
 
 .signup {
+    position: relative;
     width: 15%;
     height: 57px;
     border-radius: 30px;
@@ -53,12 +54,45 @@
     color: #fff;
     font-size: 20px;
     font-weight: 400;
+    transition: background 0.3s ease;
 }
 
 .signup:hover {
     background-color: rgba(33, 33, 117, 0.699);
     cursor: pointer;
 }
+
+  
+  .signup:disabled {
+    background-color: blue;
+    cursor: not-allowed;
+  }
+  
+  .loader {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 0.6s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .error-message {
+    color: rgb(252, 84, 84);
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: underline;
+  }
+  
+  
 
 .terms {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
