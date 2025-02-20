@@ -13,7 +13,7 @@ export default function Section3() {
                 </div>
                 <div className='s3-textbox s3'>
                     <p className='s3-text'>
-                    At Afia Publications, we offer a wide range of book genres to captivate every reader. From thrilling fiction and insightful non-fiction to enchanting children’s literature, our collection is designed to inspire and entertain. Discover the stories that resonate with you and explore the creativity of our talented authors.
+                    At Odomefa Storyworks, we offer a wide range of book genres to captivate every reader. From thrilling fiction and insightful non-fiction to enchanting children’s literature, our collection is designed to inspire and entertain. Discover the stories that resonate with you and explore the creativity of our talented authors.
                     </p>
                 </div>
             </div>

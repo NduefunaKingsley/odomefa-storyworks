@@ -47,7 +47,7 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div className="home-section">
       <FadeInSection>
         <div className="home-container">
           <div className="home">

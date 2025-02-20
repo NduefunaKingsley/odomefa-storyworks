@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
-import { useEffect, useRef } from "react";
+import 
+
+{ useEffect, useRef } from "react";
 import "./FadeInSection.css"; // Import CSS
 
 const FadeInSection = ({ children }) => {
