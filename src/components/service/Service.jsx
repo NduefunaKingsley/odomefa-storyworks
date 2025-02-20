@@ -19,7 +19,7 @@ export default function Service() {
           <FadeInSection>
             <div className="head2 head">
               <p className="head2-text">
-                At Afia Publications, we offer a wide range of services tailored
+                At Odomefa Storyworks, we offer a wide range of services tailored
                 to meet the needs of authors and publishers. From meticulous
                 manuscript editing to creative book design and layout, our team
                 ensures that every project is handled with precision and care.

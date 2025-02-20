@@ -33,13 +33,13 @@ export default function Home() {
     } 
     // Check if email field is empty
     else if (email.trim() === "") {
-      setError("Please enter a valid email address!");
+      setError("Please input a valid email address!");
     } else {
       setLoading(true); // Show loader
 
       // Simulate a signup process
       setTimeout(() => {
-        alert(`Thank you for signing up with: ${email}`);
+        alert(`Welcome Dear User`);
         setEmail(""); // Clear input field
         setLoading(false); // Hide loader after 2 seconds
       }, 2000);
@@ -47,7 +47,7 @@ export default function Home() {
   };
 
   return (
-    <div>
+    <div className="home-section">
       <FadeInSection>
         <div className="home-container">
           <div className="home">

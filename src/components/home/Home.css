@@ -1,3 +1,7 @@
+/* .home-section {
+    width: 98%;
+} */
+
 .home-container {
     display: flex;
     flex-direction: column;
@@ -9,6 +13,7 @@
     height: 100vh;
     color: #fff;
 }
+
 
 .home {
     width: 85%;
@@ -84,7 +89,7 @@
   }
 
   .error-message {
-    color: rgb(252, 84, 84);
+    color: rgb(252, 101, 101);
     font-size: 14px;
     margin-top: 10px;
     font-weight: bold;
@@ -332,4 +337,63 @@
     background-color: rgba(3, 3, 111, 0.664);
     color: #fff;
     cursor: pointer;
+}
+
+/* MediaQuery */
+
+@media screen and (max-width: 576px) {
+    .home-section {
+        width: 90%;
+    }
+    .home-container {
+        width: 112rem;
+        height: 40rem;
+    }
+    .home {
+        width: 35%;
+        padding-left: 25%;
+        padding-top: 120px;
+    }
+    .home-head {
+        font-size: 30px
+    }
+    .home-text {
+        font-size: 15px;
+    }
+    .home-input {
+        width: 15rem;
+        height: 40px;
+    }
+    .signup {
+        width: 8rem;
+        height: 40px;
+    }
+    .terms {
+        font-size: 15px;
+    }
+    /* Section2 */
+    .s2-container {
+        padding-left: 40%;
+        padding-top: 50px;
+    }
+    .s2 {
+        height: 100%;
+    }
+    .s2-head {
+        font-size: 30px;
+    }
+    .s2-textbox {
+        width: 45rem;
+        padding-bottom: 5%;
+    }
+    /* Section3 */
+    .s3-container {
+        width: 112rem;
+    }
+    .s3-head-container {
+        padding-left: 30%;
+    }
+    .s3-head {
+        font-size: 35px;
+    }
 }
